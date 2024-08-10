@@ -222,8 +222,8 @@ header {
       display: flex;
       justify-self: center;
       align-self: center;
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding-top: 55px;
+      padding-bottom: 30px;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -238,11 +238,11 @@ header {
       background-color: var(--blueD);
       height: 0;
       padding: 0;
-    
     }
 
     #navbar ul li{
       margin-right: 20px;
+      
     }
 
     #check:checked~.icon #menu_icon{
@@ -268,6 +268,7 @@ header {
       align-items: center;
       left: 10%;
       z-index: 5;
+    
     }
 
     .dropdown{
@@ -596,8 +597,8 @@ header {
   }
 
   .skills_img_bg{
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     overflow: hidden;
     align-items: center;
     justify-content: center;
@@ -609,14 +610,12 @@ header {
     border-style: solid;
     border-width: 1px;
     box-shadow: 0px 0px 10px 5px var(--blueD);
-
-
    
   }
 
   
   .skills_img_bg img{
-    height: 85px;
+    height: 40px;
   }
 
   .row{
@@ -635,7 +634,7 @@ header {
     flex-direction: column;
     color: var(--blueD);
     font-family: var(--font_family);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-left: 0px;
     margin-bottom: 20px;
     margin-top: 5px;
@@ -1258,8 +1257,11 @@ ul{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-content: center;
+    align-self: center;
+    justify-self: center;
   }
 
 
@@ -1286,6 +1288,9 @@ ul{
     align-items: center;
     margin-left: 0px;
     margin-right: 0px;
+    align-content: center;
+    align-self: center;
+    justify-self: center;
   }
 
   .projects{
@@ -1345,6 +1350,8 @@ ul{
   
   .used_skills{
     margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
     font-family: var(--font_family);
     color: aqua;
     display: flex;
@@ -1602,8 +1609,9 @@ align-items: center;
     /* margin-top: 100px; */
     display: flex;
     flex-direction: column-reverse;
-    /* padding-left: 50px; */
-    /* padding-right: 50px; */
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
   }
 
   .cer_img{
@@ -1633,8 +1641,8 @@ align-items: center;
     flex-direction: column;
     color: var(--blueD);
     width: auto;
-    /* margin-left: 20px; */
-    /* margin-right: 30px; */
+    margin-left: 5px;
+    margin-right: 5px;
     justify-content: center;
   }
   
@@ -1741,8 +1749,8 @@ align-items: center;
 }
 
 .contact_us_main_container .gettouch .maps iframe{
-  height: 350px;
-  width: 400px;
+  height: auto;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1752,14 +1760,14 @@ align-items: center;
 }
 
 .contact_us_main_container .gettouch .maps{
-  height: 350px;
-  width: 400px;
+  height: auto;
+  width: auto;
   display: flex;
   justify-content: center;
   justify-items: center;
   align-items: center;
   align-content: center;
-  margin: 0%;
+  margin: 10px;
   object-fit: cover;
   align-self: center;
 }
@@ -1771,6 +1779,7 @@ align-items: center;
   width: auto;
   margin-left: 50px;
   margin-top: 15px;
+  margin-bottom: 25px;
   /* align-items: center; */
 }
 
@@ -1808,7 +1817,7 @@ nav.sticky{
 
 @media (max-width:795px){
   nav.sticky{
-    height: 90px;
+    height: 120px;
   }
 }
 
