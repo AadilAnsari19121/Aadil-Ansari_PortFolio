@@ -245,13 +245,14 @@ header {
       
     }
 
-/*     #check:checked~.icon #menu_icon{
-      display: none;
+    #check:checked~.icon #menu_icon{
+      
+        display: block;
+      right: 7%;
     }
 
     #check:checked~.icon #close_icon{
-      display: block;
-      right: 7%;
+        display: none;
     }
     .icon{
       display: block;
@@ -259,10 +260,10 @@ header {
     }
 
     #close_icon{
-      display: none;
-    } */
+      display: block;
+    }
 
-      #check:not(:checked) ~ .icon #menu_icon {
+/*       #check:not(:checked) ~ .icon #menu_icon {
   display: block;
 }
 
@@ -286,7 +287,7 @@ header {
 
 #close_icon {
   display: none;
-}
+} */
     .logo{
       display: flex;
       flex-direction: column;
