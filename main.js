@@ -62,9 +62,8 @@ const typingAnimationElement = document.getElementById('profession_my');
 
 						// Create an array of typing text
 						const typingTexts = [
-						'Android Developer  ',
 						'FrontEnd Devloper  ',
-						
+						'Android Developer  '
 						];
 
 						// Create a function to display the typing animation for a given text
