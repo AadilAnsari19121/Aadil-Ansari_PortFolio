@@ -234,7 +234,7 @@ header {
 
     
 
-    #check:not(:checked)~ #ull{
+    #check:checked~ #ull{
       background-color: var(--blueD);
       height: 0;
       padding: 0;
@@ -246,13 +246,14 @@ header {
     }
 
     #check:checked~.icon #menu_icon{
-      
-        display: block;
-      right: 7%;
+       display: none;
+       
     }
 
     #check:checked~.icon #close_icon{
-        display: none;
+       
+         display: block;
+      right: 7%;
     }
     .icon{
       display: block;
