@@ -10,9 +10,9 @@
     scroll-behavior: smooth;
     font-family: var(--font_family);
 }
-body{
+/* body{
     overflow-x: hidden;
-}
+} */
 
 
 /* all headers */
