@@ -5,7 +5,7 @@ ScrollReveal({
     // delay: 400
 
 });
-ScrollReveal().reveal('#navbar', { distance: '60px', duration: 1000, easing: 'ease', delay: 400, origin: 'top' });
+ScrollReveal().reveal('#navbar', { distance: '60px', duration: 1000, easing: 'ease', delay: 400, origin: 'top', mobile: false });
 ScrollReveal().reveal('.about_me,.pr_img', { distance: '100px', duration: 2500, easing: 'ease', delay: 450, origin: 'left' });
 ScrollReveal().reveal('.my_contacts_logo img', { distance: '160px', duration: 1500, easing: 'ease', delay: 500, origin: 'right', interval: 200 });
 ScrollReveal().reveal('.my_img img', { distance: '100px', duration: 2500, easing: 'ease', delay: 600, origin: 'right' });

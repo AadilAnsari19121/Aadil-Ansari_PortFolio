@@ -10,9 +10,12 @@
     scroll-behavior: smooth;
     font-family: var(--font_family);
 }
-/* body{
-    overflow-x: hidden;
-} */
+.d69{
+  width: 3300px;
+}
+main{
+    overflow: hidden;
+}
 
 
 /* all headers */
@@ -266,31 +269,6 @@ header {
       display: none;
     }
 
-/*       #check:not(:checked) ~ .icon #menu_icon {
-  display: block;
-}
-
-#check:not(:checked) ~ .icon #close_icon {
-  display: none;
-}
-
-#check:checked ~ .icon #menu_icon {
-  display: none;
-}
-
-#check:checked ~ .icon #close_icon {
-  display: block;
-  right: 7%;
-}
-
-.icon {
-  display: block;
-  right: 7%;
-}
-
-#close_icon {
-  display: none;
-} */
     .logo{
       display: flex;
       flex-direction: column;
