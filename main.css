@@ -10,9 +10,6 @@
     scroll-behavior: smooth;
     font-family: var(--font_family);
 }
-.d69{
-  width: 3300px;
-}
 main{
     overflow: hidden;
 }
