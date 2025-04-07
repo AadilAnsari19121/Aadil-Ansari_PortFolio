@@ -62,7 +62,7 @@ const typingAnimationElement = document.getElementById('profession_my');
 
 						// Create an array of typing text
 						const typingTexts = [
-							'React Native Developer  ',
+						'React Native Developer  ',
 						'FrontEnd Developer  ',
 						'Android Developer  '
 						];
