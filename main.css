@@ -10,6 +10,9 @@
     scroll-behavior: smooth;
     font-family: var(--font_family);
 }
+.d69{
+  width: 3300px;
+}
 main{
     overflow: hidden;
 }
@@ -1084,6 +1087,7 @@ ul{
  background: linear-gradient(to right,var(--blueD) 50%,var(--blueL) 50%);
  background-size: 200% 100%;
  background-position: right;
+ overflow: hidden;
 }
 
 
